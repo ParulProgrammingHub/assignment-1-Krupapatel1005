@@ -1,0 +1,16 @@
+#PROGRAM TO ENTER MARKS OF 5 SUBJECTS AND FIND THE MEAN OF 5 SUBJECTS, CALCULATE PERCENTAGE. IF PERCENTAGE IS LESS THAN 35 PRINT FAIL, ELSE PRINT PASS.
+print("MARKS OUT OF 100")
+m1=float(input("ENTER MARKS FOR CN"))
+m2=float(input("ENTER MARKS FOR OOPC"))
+m3=float(input("ENTER MARKS FOR DBMS"))
+m4=float(input("ENTER MARKS FOR OOAD"))
+m5=float(input("ENTER MARKS FOR MATHEMATICS"))
+total=m1+m2+m3+m4+m5
+mean=(total)/2
+print("MEAN:",mean)
+percent=(total/500)*100
+print("PERCENTAGE:",percent)
+if percent<35:
+    print("YOU HAVE FAILED YOUR EXAMINATION")
+else:
+    print("YOU HAVE PASSED YOUR EXAMINATION")
